@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="HardLight/android_roomservice" path=".repo/local_manifests" />
+  <remove-project name="androidarmv6/android_bootable_recovery" />
+  <project name="HardLight/android_bootable_recovery" path="bootable/recovery" />
+  <project name="HardLight/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" />
+  <project name="HardLight/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" />
+  <project name="HardLight/android_device_lge_p500" path="device/lge/p500" />
+  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" />
+  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />
+  <project name="androidarmv6/android_vendor_lge" path="vendor/lge" />
+  <remove-project name="androidarmv6/android_art" />
+  <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
+  <remove-project name="CyanogenMod/android_device_generic_mips" />
+  <remove-project name="CyanogenMod/android_device_generic_x86" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-mips" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="CyanogenMod/android_external_libnfc-nci" />
+  <remove-project name="CyanogenMod/android_external_libnfc-nxp" />
+  <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMAccount" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
+  <remove-project name="CyanogenMod/android_packages_apps_Torch" />
+  <remove-project name="CyanogenMod/android_packages_apps_VideoEditor" />
+  <remove-project name="CyanogenMod/android_packages_apps_VoicePlus" />
+  <remove-project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
+  <remove-project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
+</manifest>
