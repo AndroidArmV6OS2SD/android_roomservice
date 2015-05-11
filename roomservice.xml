@@ -9,7 +9,6 @@
   <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />
   <project name="androidarmv6/android_vendor_lge" path="vendor/lge" />
   <remove-project name="androidarmv6/android_bionic" />
-  <remove-project name="androidarmv6/android_bootable_recovery" />
   <remove-project name="androidarmv6/android_external_wpa_supplicant_8" />
   <remove-project name="androidarmv6/android_frameworks_av" />
   <remove-project name="androidarmv6/android_frameworks_base" />
@@ -18,7 +17,6 @@
   <remove-project name="androidarmv6/android_system_core" />
   <remove-project name="androidarmv6/android_vendor_cm" />
   <project name="os2sd/android_bionic" path="bionic" />
-  <project name="os2sd/android_bootable_recovery" path="bootable/recovery" />
   <project name="os2sd/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" />
   <project name="os2sd/android_frameworks_av" path="frameworks/av" />
   <project name="os2sd/android_frameworks_base" path="frameworks/base" />
