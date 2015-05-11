@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="os2sd/android_roomservice" path=".repo/local_manifests" />
+  <project name="os2sd/android_java" path="java" />
   <project name="os2sd/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" />
   <project name="os2sd/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" />
   <project name="os2sd/android_device_lge_p500" path="device/lge/p500" />
