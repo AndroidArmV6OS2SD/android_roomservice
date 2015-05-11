@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="HardLight/android_roomservice" path=".repo/local_manifests" />
-  <remove-project name="androidarmv6/android_bootable_recovery" />
-  <project name="HardLight/android_bootable_recovery" path="bootable/recovery" />
-  <project name="HardLight/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" />
-  <project name="HardLight/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" />
-  <project name="HardLight/android_device_lge_p500" path="device/lge/p500" />
+  <project name="os2sd/android_roomservice" path=".repo/local_manifests" />
+  <project name="os2sd/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" />
+  <project name="os2sd/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" />
+  <project name="os2sd/android_device_lge_p500" path="device/lge/p500" />
   <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" />
   <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />
   <project name="androidarmv6/android_vendor_lge" path="vendor/lge" />
+  <remove-project name="androidarmv6/android_bionic" />
+  <remove-project name="androidarmv6/android_bootable_recovery" />
+  <remove-project name="androidarmv6/android_external_wpa_supplicant_8" />
+  <remove-project name="androidarmv6/android_frameworks_av" />
+  <remove-project name="androidarmv6/android_frameworks_base" />
+  <remove-project name="androidarmv6/android_packages_apps_Browser" />
+  <remove-project name="androidarmv6/android_packages_apps_Settings" />
+  <remove-project name="androidarmv6/android_system_core" />
+  <remove-project name="androidarmv6/android_vendor_cm" />
+  <project name="os2sd/android_bionic" path="bionic" />
+  <project name="os2sd/android_bootable_recovery" path="bootable/recovery" />
+  <project name="os2sd/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" />
+  <project name="os2sd/android_frameworks_av" path="frameworks/av" />
+  <project name="os2sd/android_frameworks_base" path="frameworks/base" />
+  <project name="os2sd/android_packages_apps_Browser" path="packages/apps/Browser" />
+  <project name="os2sd/android_packages_apps_Settings" path="packages/apps/Settings" />
+  <project name="os2sd/android_system_core" path="system/core" />
+  <project name="os2sd/android_vendor_cm" path="vendor/cm" />
 </manifest>
