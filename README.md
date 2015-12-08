@@ -1,3 +1,5 @@
+USE instructions on https://github.com/os2sd/android instead
+
 roomservice.xml for p500 OS2SD
 
 to build:
