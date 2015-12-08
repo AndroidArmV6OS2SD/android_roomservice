@@ -2,11 +2,11 @@ roomservice.xml for p500 OS2SD
 
 to build:
 
-init androidarmv6 repo
+initialize os2sd repo:
 
-directions here: https://github.com/androidarmv6/android
+    repo init -u git://github.com/os2sd/android.git -b cm-11.0
 
-cd to your androidarmv6 directory, then
+clone android_roomservice into your os2sd repo directory:
 
     git clone https://github.com/os2sd/android_roomservice.git .repo/local_manifests/ -b cm-11.0
 
