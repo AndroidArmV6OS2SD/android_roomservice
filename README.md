@@ -2,13 +2,13 @@ roomservice.xml for Optimus One, S, V OS2SD
 
 to build:
 
-initialize os2sd repo:
+initialize cm12 repo:
 
-    repo init -u git://github.com/androidarmv6os2sd/android.git -b cm-12.0
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.0
 
 clone android_roomservice into your os2sd repo directory:
 
-    git clone https://github.com/androidarmv6os2sd/android_roomservice.git .repo/local_manifests/ -b cm-11.0
+    git clone https://github.com/androidarmv6os2sd/android_roomservice.git .repo/local_manifests/ -b cm-12.0
 
 then
 
