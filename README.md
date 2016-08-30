@@ -4,7 +4,7 @@ to build:
 
 initialize cm12 repo:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.0
+    repo init -u https://github.com/CyanogenMod/android.git -b cm-12.0
 
 clone android_roomservice into your os2sd repo directory:
 
