@@ -4,19 +4,15 @@
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_art" />
   <remove-project name="CyanogenMod/android_bionic" />
-  <remove-project name="CyanogenMod/android_dalvik" />
-  <remove-project name="CyanogenMod/android_device_mdpi-common" />
+  <remove-project name="platform/dalvik" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
-  <remove-project name="CyanogenMod/android_external_chromium" />
   <remove-project name="CyanogenMod/android_external_chromium_org" />
   <remove-project name="CyanogenMod/android_external_libncurses" />
-  <remove-project name="CyanogenMod/android_external_llvm" />
   <remove-project name="CyanogenMod/android_external_skia" />
-  <remove-project name="CyanogenMod/android_external_srec" />
-  <remove-project name="CyanogenMod/android_external_webkit" />
+  <remove-project name="platform/external/llvm" />
+  <remove-project name="platform/external/srec" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
-  <remove-project name="CyanogenMod/android_frameworks_compile_libcc" />
   <remove-project name="CyanogenMod/android_frameworks_compile_slang" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_frameworks_rs" />
@@ -24,11 +20,8 @@
   <remove-project name="CyanogenMod/android_hardware_broadcom_wlan" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_display-legacy" />
   <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_media-legacy" />
   <remove-project name="CyanogenMod/android_packages_apps_Browser" />
-  <remove-project name="CyanogenMod/android_packages_apps_HwaSettings" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_apps_Trebuchet" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
@@ -36,24 +29,24 @@
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_netd" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
-  <project path="build" name="AndroidArmV6OS2SD/android_build" groups="pdk">
+  <project path="build" name="AndroidArmV6OS2SD/android_build" groups="pdk" revision="cm-12.0-armv6" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="AndroidArmV6OS2SD/android">
     <copyfile src="build_scripts/Fetch.sh" dest="Fetch.sh" />
   </project>
   <project name="AndroidArmV6OS2SD/android_art" path="art" />
-  <project name="AndroidArmV6OS2SD/android_bionic" path="bionic" />
-  <project name="AndroidArmV6OS2SD/android_dalvik" path="dalvik" />
+  <project name="AndroidArmV6OS2SD/android_bionic" path="bionic" revision="cm-12.0-armv6" />
+  <project name="AndroidArmV6OS2SD/android_dalvik" path="dalvik" revision="cm-12.0-armv6"/>
   <project name="AndroidArmV6OS2SD/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" />
-  <project name="AndroidArmV6OS2SD/android_external_chromium" path="external/chromium" />
+  <project name="AndroidArmV6OS2SD/android_external_chromium" path="external/chromium" revision="cm-11.0" />
   <project name="AndroidArmV6OS2SD/android_external_chromium_org" path="external/chromium_org" />
   <project name="AndroidArmV6OS2SD/android_external_libncurses" path="external/libncurses" />
   <project name="AndroidArmV6OS2SD/android_external_skia" path="external/skia" />
   <project name="AndroidArmV6OS2SD/android_external_srec" path="external/srec" />
   <project name="AndroidArmV6OS2SD/android_external_webkit" path="external/webkit" />
   <project name="AndroidArmV6OS2SD/android_external_llvm" path="external/llvm" />
-  <project name="AndroidArmV6OS2SD/android_frameworks_av" path="frameworks/av" />
+  <project name="AndroidArmV6OS2SD/android_frameworks_av" path="frameworks/av" revision="cm-12.0-armv6"/>
   <project name="AndroidArmV6OS2SD/android_frameworks_base" path="frameworks/base" />
   <project name="AndroidArmV6OS2SD/android_frameworks_compile_libcc" path="frameworks/compile/libcc" />
   <project name="AndroidArmV6OS2SD/android_frameworks_compile_slang" path="frameworks/compile/slang" />
@@ -72,7 +65,7 @@
   <project name="AndroidArmV6OS2SD/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
   <project name="AndroidArmV6OS2SD/android_packages_inputmethods_LatinIME" path="packages/packages/inputmethods/LatinIME" />
   <project name="AndroidArmV6OS2SD/android_packages_wallpapers_Basic" path="packages/packages/wallpapers/Basic" />
-  <project name="AndroidArmV6OS2SD/android_system_core" path="system/core" />
+  <project name="AndroidArmV6OS2SD/android_system_core" path="system/core" revision="cm-12.0-armv6"/>
   <project name="AndroidArmV6OS2SD/android_system_netd" path="system/netd" />
   <project name="AndroidArmV6OS2SD/android_vendor_cm" path="vendor/cm" />
   <project name="AndroidArmV6OS2SD/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" />
